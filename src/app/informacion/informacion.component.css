@@ -1,0 +1,39 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    
+} 
+h1{
+    
+    font-size: 50px;
+    user-select: none;
+    background: linear-gradient(to right, #76D5FF, #3A6174, #333); /* Gradiente de colores apagados */
+    -webkit-background-clip: text; /* Permite que el gradiente afecte solo al texto */
+    background-clip: text; /* Permite que el gradiente afecte solo al texto */
+    color: transparent;
+}
+p{
+    padding-top: auto;   
+    margin-top: auto;
+}
+
+img{
+
+    width: 270px;
+    margin-right: 45px;
+    height: 270px;
+    border-radius: 50%;
+}
+
+.contenedor div p{
+
+    margin-bottom: -40px;
+    user-select: none;
+}
+
+.contenedor .text{
+    margin-top: -80px;
+
+}

@@ -1,0 +1,44 @@
+
+<section id="principal">
+
+    <!-- * * * * * * * * <@if (isLoggedIn){
+        <div>
+            <img (click)="greet()"
+            src="https://github.com/Thezheref.png" alt="photo">
+        </div>
+        
+        <p>Bienvenido, {{Username}}.</p>
+
+        <div>
+            <button (click)="isLoggedIn=false">Cerrar</button>
+        </div>
+    }@else{
+        <p> Inicia sesion</p> 
+        
+        <div>
+            <button (click)="isLoggedIn=true">Iniciar</button>
+        </div>
+        
+    }/>* * * * * * * * * * * * * * * * * * * * * * * * -->
+    
+    <app-inicio></app-inicio>
+    
+</section>
+<section id="info">
+    <app-informacion></app-informacion>
+</section>
+
+<section id="skills">
+    <app-habilidades></app-habilidades>
+</section>
+
+<section id="projects">
+    <app-aplicaciones></app-aplicaciones>
+</section>
+
+<section id="footer">
+    <app-footer></app-footer>
+</section>
+
+
+
